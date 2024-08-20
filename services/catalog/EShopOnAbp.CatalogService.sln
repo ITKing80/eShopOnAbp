@@ -29,9 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopOnAbp.CatalogService.H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopOnAbp.CatalogService.HttpApi.Host", "src\EShopOnAbp.CatalogService.HttpApi.Host\EShopOnAbp.CatalogService.HttpApi.Host.csproj", "{748584B1-BA69-4F6A-81AA-F4BDE6BCE29D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopOnAbp.CatalogService.MongoDB", "src\EShopOnAbp.CatalogService.MongoDB\EShopOnAbp.CatalogService.MongoDB.csproj", "{5D15000F-E6C4-45ED-96BC-6B6A029BA584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopOnAbp.CatalogService.MongoDB", "src\EShopOnAbp.CatalogService.MongoDB\EShopOnAbp.CatalogService.MongoDB.csproj", "{5D15000F-E6C4-45ED-96BC-6B6A029BA584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopOnAbp.CatalogService.MongoDB.Tests", "test\EShopOnAbp.CatalogService.MongoDB.Tests\EShopOnAbp.CatalogService.MongoDB.Tests.csproj", "{353E567B-0519-4768-92DD-DC88E318E5B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopOnAbp.CatalogService.MongoDB.Tests", "test\EShopOnAbp.CatalogService.MongoDB.Tests\EShopOnAbp.CatalogService.MongoDB.Tests.csproj", "{353E567B-0519-4768-92DD-DC88E318E5B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

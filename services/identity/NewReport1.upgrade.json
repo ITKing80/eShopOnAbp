@@ -1,0 +1,205 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 8.0"
+  },
+  "analysisStartTime": "2024-08-20T06:43:57.5109362Z",
+  "analysisEndTime": "2024-08-20T06:44:00.8084182Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 12,
+      "issues": 2,
+      "incidents": 3,
+      "effort": 3
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 2,
+        "Optional": 0,
+        "Potential": 1,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 1,
+        "Project": 2
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "src\\EShopOnAbp.IdentityService.Application.Contracts\\EShopOnAbp.IdentityService.Application.Contracts.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "82be0fc4-3a07-4eba-bc14-9558f8687bdf",
+          "ruleId": "Project.0002",
+          "projectPath": "src\\EShopOnAbp.IdentityService.Application.Contracts\\EShopOnAbp.IdentityService.Application.Contracts.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0",
+              "protected": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0"
+            },
+            "kind": "File",
+            "path": "src\\EShopOnAbp.IdentityService.Application.Contracts\\EShopOnAbp.IdentityService.Application.Contracts.csproj",
+            "snippet": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0",
+            "protectedSnippet": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "src\\EShopOnAbp.IdentityService.Application\\EShopOnAbp.IdentityService.Application.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "test\\EShopOnAbp.IdentityService.Application.Tests\\EShopOnAbp.IdentityService.Application.Tests.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.IdentityService.Domain\\EShopOnAbp.IdentityService.Domain.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.IdentityService.Domain.Shared\\EShopOnAbp.IdentityService.Domain.Shared.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "7c2bb331-9297-4cfe-ba4c-5a41fca17f5f",
+          "ruleId": "NuGet.0002",
+          "projectPath": "src\\EShopOnAbp.IdentityService.Domain.Shared\\EShopOnAbp.IdentityService.Domain.Shared.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Extensions.FileProviders.Embedded, 8.0.5\n\n\u5EFA\u8BAE:\n\nMicrosoft.Extensions.FileProviders.Embedded 8.0.8",
+              "protected": "Microsoft.Extensions.FileProviders.Embedded, 8.0.5\n\n\u5EFA\u8BAE:\n\nMicrosoft.Extensions.FileProviders.Embedded 8.0.8"
+            },
+            "kind": "File",
+            "path": "src\\EShopOnAbp.IdentityService.Domain.Shared\\EShopOnAbp.IdentityService.Domain.Shared.csproj",
+            "snippet": "Microsoft.Extensions.FileProviders.Embedded, 8.0.5\n\n\u5EFA\u8BAE:\n\nMicrosoft.Extensions.FileProviders.Embedded 8.0.8",
+            "protectedSnippet": "Microsoft.Extensions.FileProviders.Embedded, 8.0.5\n\n\u5EFA\u8BAE:\n\nMicrosoft.Extensions.FileProviders.Embedded 8.0.8",
+            "label": "Microsoft.Extensions.FileProviders.Embedded 8.0.5"
+          }
+        }
+      ]
+    },
+    {
+      "path": "test\\EShopOnAbp.IdentityService.Domain.Tests\\EShopOnAbp.IdentityService.Domain.Tests.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.IdentityService.EntityFrameworkCore\\EShopOnAbp.IdentityService.EntityFrameworkCore.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "test\\EShopOnAbp.IdentityService.EntityFrameworkCore.Tests\\EShopOnAbp.IdentityService.EntityFrameworkCore.Tests.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.IdentityService.HttpApi.Client\\EShopOnAbp.IdentityService.HttpApi.Client.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "8ec0bd28-4f68-4139-955c-b91a9f123783",
+          "ruleId": "Project.0002",
+          "projectPath": "src\\EShopOnAbp.IdentityService.HttpApi.Client\\EShopOnAbp.IdentityService.HttpApi.Client.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0",
+              "protected": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0"
+            },
+            "kind": "File",
+            "path": "src\\EShopOnAbp.IdentityService.HttpApi.Client\\EShopOnAbp.IdentityService.HttpApi.Client.csproj",
+            "snippet": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0",
+            "protectedSnippet": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "src\\EShopOnAbp.IdentityService.HttpApi\\EShopOnAbp.IdentityService.HttpApi.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.IdentityService.HttpApi.Host\\EShopOnAbp.IdentityService.HttpApi.Host.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "test\\EShopOnAbp.IdentityService.TestBase\\EShopOnAbp.IdentityService.TestBase.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    }
+  ],
+  "rules": {
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "description": "\u5EFA\u8BAE\u5BF9\u6240\u9009\u76EE\u6807\u6846\u67B6\u8FDB\u884C NuGet \u5305\u5347\u7EA7\u3002\n\n\u5EFA\u8BAE\u5C06\u6807\u51C6 .NET \u5305\u7684\u7248\u672C\u4E0E\u9879\u76EE\u9762\u5411\u7684 .NET \u7248\u672C\u5339\u914D\u3002\n\n\u4E00\u4E9B\u5176\u4ED6\u5305\u4E5F\u5DF2\u77E5\u66F4\u9002\u5408\u6240\u9009\u7684\u76EE\u6807\u6846\u67B6\u3002",
+      "label": "\u5EFA\u8BAE\u5347\u7EA7 NuGet \u5305",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "description": "\u9700\u8981\u5C06\u9879\u76EE\u7684\u76EE\u6807\u6846\u67B6\u66F4\u6539\u4E3A\u5DF2\u4E3A\u6B64\u5347\u7EA7\u9009\u62E9\u7684\u65B0\u76EE\u6807\u6846\u67B6\u3002\n\n\u5728\u5347\u7EA7\u671F\u95F4\uFF0C\u76EE\u6807\u6846\u67B6\u5C06\u5728\u9002\u7528\u65F6\u8C03\u6574\u4E3A\u5BF9\u5E94\u7684\u5E73\u53F0\u3002\u5728\u67D0\u4E9B\u60C5\u51B5\u4E0B\uFF0C\u5982\u679C\u9879\u76EE\u4F7F\u7528\u7684\u529F\u80FD\u76EE\u524D\u5728\u65B0\u5F0F .NET Framework (windows\u3001iOS\u3001Android \u7B49)\u4E2D\u5177\u6709\u81EA\u5DF1\u7684\u5E73\u53F0\uFF0C\u5219\u5728\u5347\u7EA7\u540E\u9879\u76EE\u4F1A\u751F\u6210\u591A\u4E2A\u76EE\u6807\u6846\u67B6\u3002",
+      "label": "\u9700\u8981\u66F4\u6539\u9879\u76EE\u7684\u76EE\u6807\u6846\u67B6",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "\u4ECE .NET Framework \u79FB\u690D\u5230 .NET \u7684\u6982\u8FF0",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET \u9879\u76EE SDK",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}

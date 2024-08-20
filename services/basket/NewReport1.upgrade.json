@@ -1,0 +1,86 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 8.0"
+  },
+  "analysisStartTime": "2024-08-20T05:53:09.4968925Z",
+  "analysisEndTime": "2024-08-20T05:53:12.6893564Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 2,
+      "issues": 1,
+      "incidents": 1,
+      "effort": 1
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 1,
+        "Optional": 0,
+        "Potential": 0,
+        "Information": 0
+      },
+      "category": {
+        "Project": 1
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "src\\EShopOnAbp.BasketService.Contracts\\EShopOnAbp.BasketService.Contracts.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "8d94081b-89a1-457d-ae3f-ac6267d2b52a",
+          "ruleId": "Project.0002",
+          "projectPath": "src\\EShopOnAbp.BasketService.Contracts\\EShopOnAbp.BasketService.Contracts.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0",
+              "protected": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0"
+            },
+            "kind": "File",
+            "path": "src\\EShopOnAbp.BasketService.Contracts\\EShopOnAbp.BasketService.Contracts.csproj",
+            "snippet": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0",
+            "protectedSnippet": "\u5F53\u524D: netstandard2.0\n\u65B0\u5EFA: net8.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "src\\EShopOnAbp.BasketService\\EShopOnAbp.BasketService.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    }
+  ],
+  "rules": {
+    "Project.0002": {
+      "id": "Project.0002",
+      "description": "\u9700\u8981\u5C06\u9879\u76EE\u7684\u76EE\u6807\u6846\u67B6\u66F4\u6539\u4E3A\u5DF2\u4E3A\u6B64\u5347\u7EA7\u9009\u62E9\u7684\u65B0\u76EE\u6807\u6846\u67B6\u3002\n\n\u5728\u5347\u7EA7\u671F\u95F4\uFF0C\u76EE\u6807\u6846\u67B6\u5C06\u5728\u9002\u7528\u65F6\u8C03\u6574\u4E3A\u5BF9\u5E94\u7684\u5E73\u53F0\u3002\u5728\u67D0\u4E9B\u60C5\u51B5\u4E0B\uFF0C\u5982\u679C\u9879\u76EE\u4F7F\u7528\u7684\u529F\u80FD\u76EE\u524D\u5728\u65B0\u5F0F .NET Framework (windows\u3001iOS\u3001Android \u7B49)\u4E2D\u5177\u6709\u81EA\u5DF1\u7684\u5E73\u53F0\uFF0C\u5219\u5728\u5347\u7EA7\u540E\u9879\u76EE\u4F1A\u751F\u6210\u591A\u4E2A\u76EE\u6807\u6846\u67B6\u3002",
+      "label": "\u9700\u8981\u66F4\u6539\u9879\u76EE\u7684\u76EE\u6807\u6846\u67B6",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "\u4ECE .NET Framework \u79FB\u690D\u5230 .NET \u7684\u6982\u8FF0",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET \u9879\u76EE SDK",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}

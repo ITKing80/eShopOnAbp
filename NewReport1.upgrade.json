@@ -1,0 +1,159 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 8.0"
+  },
+  "analysisStartTime": "2024-08-20T07:39:04.3335448Z",
+  "analysisEndTime": "2024-08-20T07:39:08.5190668Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 18,
+      "issues": 0,
+      "incidents": 0,
+      "effort": 0
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 0,
+        "Optional": 0,
+        "Potential": 0,
+        "Information": 0
+      },
+      "category": {}
+    }
+  },
+  "projects": [
+    {
+      "path": "services\\administration\\src\\EShopOnAbp.AdministrationService.HttpApi.Host\\EShopOnAbp.AdministrationService.HttpApi.Host.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "aspire\\AppHost\\eShopOnAbp.AppHost.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "services\\basket\\src\\EShopOnAbp.BasketService\\EShopOnAbp.BasketService.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "services\\catalog\\src\\EShopOnAbp.CatalogService.HttpApi.Host\\EShopOnAbp.CatalogService.HttpApi.Host.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "services\\cmskit\\src\\EShopOnAbp.CmskitService.HttpApi.Host\\EShopOnAbp.CmskitService.HttpApi.Host.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "services\\identity\\src\\EShopOnAbp.IdentityService.HttpApi.Host\\EShopOnAbp.IdentityService.HttpApi.Host.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "shared\\EShopOnAbp.Keycloak.DbMigrator\\EShopOnAbp.Keycloak.DbMigrator.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "services\\ordering\\src\\EShopOnAbp.OrderingService.HttpApi.Host\\EShopOnAbp.OrderingService.HttpApi.Host.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "services\\payment\\src\\EShopOnAbp.PaymentService.HttpApi.Host\\EShopOnAbp.PaymentService.HttpApi.Host.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "apps\\public-web\\src\\EShopOnAbp.PublicWeb\\EShopOnAbp.PublicWeb.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "aspire\\ServiceDefaults\\eShopOnAbp.ServiceDefaults.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "shared\\EShopOnAbp.Shared.Hosting.AspNetCore\\EShopOnAbp.Shared.Hosting.AspNetCore.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "shared\\EShopOnAbp.Shared.Hosting\\EShopOnAbp.Shared.Hosting.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "shared\\EShopOnAbp.Shared.Hosting.Gateways\\EShopOnAbp.Shared.Hosting.Gateways.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "shared\\EShopOnAbp.Shared.Hosting.Microservices\\EShopOnAbp.Shared.Hosting.Microservices.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "shared\\EShopOnAbp.Shared.Localization\\EShopOnAbp.Shared.Localization.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "gateways\\web\\src\\EShopOnAbp.WebGateway\\EShopOnAbp.WebGateway.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "gateways\\web-public\\src\\EShopOnAbp.WebPublicGateway\\EShopOnAbp.WebPublicGateway.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    }
+  ],
+  "rules": {}
+}
