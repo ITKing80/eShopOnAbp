@@ -38,7 +38,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{7F683C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopOnAbp.Keycloak.DbMigrator", "shared\EShopOnAbp.Keycloak.DbMigrator\EShopOnAbp.Keycloak.DbMigrator.csproj", "{A0ECB336-8E44-46F4-B551-0595AF5B4D62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopOnAbp.Shared.Hosting", "shared\EShopOnAbp.Shared.Hosting\EShopOnAbp.Shared.Hosting.csproj", "{C51FAFAE-59FE-470D-BE49-B4CDB9DF934B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopOnAbp.Shared.Hosting", "shared\EShopOnAbp.Shared.Hosting\EShopOnAbp.Shared.Hosting.csproj", "{C51FAFAE-59FE-470D-BE49-B4CDB9DF934B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopOnAbp.Shared.Hosting.AspNetCore", "shared\EShopOnAbp.Shared.Hosting.AspNetCore\EShopOnAbp.Shared.Hosting.AspNetCore.csproj", "{A6CE17C4-6991-45CC-9AD6-D0F5DA11CE64}"
 EndProject

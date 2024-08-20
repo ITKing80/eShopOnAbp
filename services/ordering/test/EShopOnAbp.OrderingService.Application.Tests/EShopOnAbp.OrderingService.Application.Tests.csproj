@@ -10,7 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\EShopOnAbp.OrderingService.Application\EShopOnAbp.OrderingService.Application.csproj" />
     <ProjectReference Include="..\EShopOnAbp.OrderingService.Domain.Tests\EShopOnAbp.OrderingService.Domain.Tests.csproj" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
   </ItemGroup>
 
 </Project>

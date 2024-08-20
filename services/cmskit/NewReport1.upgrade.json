@@ -1,0 +1,117 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 8.0"
+  },
+  "analysisStartTime": "2024-08-20T06:34:46.6627579Z",
+  "analysisEndTime": "2024-08-20T06:34:48.2681877Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 12,
+      "issues": 0,
+      "incidents": 0,
+      "effort": 0
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 0,
+        "Optional": 0,
+        "Potential": 0,
+        "Information": 0
+      },
+      "category": {}
+    }
+  },
+  "projects": [
+    {
+      "path": "src\\EShopOnAbp.CmskitService.Application.Contracts\\EShopOnAbp.CmskitService.Application.Contracts.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.CmskitService.Application\\EShopOnAbp.CmskitService.Application.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "test\\EShopOnAbp.CmskitService.Application.Tests\\EShopOnAbp.CmskitService.Application.Tests.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.CmskitService.Domain\\EShopOnAbp.CmskitService.Domain.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.CmskitService.Domain.Shared\\EShopOnAbp.CmskitService.Domain.Shared.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "test\\EShopOnAbp.CmskitService.Domain.Tests\\EShopOnAbp.CmskitService.Domain.Tests.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.CmskitService.EntityFrameworkCore\\EShopOnAbp.CmskitService.EntityFrameworkCore.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "test\\EShopOnAbp.CmskitService.EntityFrameworkCore.Tests\\EShopOnAbp.CmskitService.EntityFrameworkCore.Tests.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.CmskitService.HttpApi.Client\\EShopOnAbp.CmskitService.HttpApi.Client.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.CmskitService.HttpApi\\EShopOnAbp.CmskitService.HttpApi.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "src\\EShopOnAbp.CmskitService.HttpApi.Host\\EShopOnAbp.CmskitService.HttpApi.Host.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "test\\EShopOnAbp.CmskitService.TestBase\\EShopOnAbp.CmskitService.TestBase.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    }
+  ],
+  "rules": {}
+}
